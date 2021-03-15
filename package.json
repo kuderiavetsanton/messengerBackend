@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "apollo-server": "^2.18.2",
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^15.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "validator": "^13.1.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
